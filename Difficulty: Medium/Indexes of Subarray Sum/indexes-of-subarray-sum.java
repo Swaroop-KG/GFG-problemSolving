@@ -10,7 +10,7 @@ class Main {
         while (t-- > 0) {
             String line = read.readLine().trim();
             String[] numsStr = line.split(" ");
-            int[] nums = new int[numsStr.length];
+            int[] nums = new int[numsStr.length] ;
             for (int i = 0; i < numsStr.length; i++) {
                 nums[i] = Integer.parseInt(numsStr[i]);
             }
