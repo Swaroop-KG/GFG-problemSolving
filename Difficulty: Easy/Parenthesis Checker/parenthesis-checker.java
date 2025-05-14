@@ -7,7 +7,7 @@ class Driverclass {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
-        // Reading total number of testcases
+        
         int t = sc.nextInt();
 
         while (t-- > 0) {
