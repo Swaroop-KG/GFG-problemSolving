@@ -3,7 +3,7 @@ class Solution {
         ArrayList<Integer> ans = new ArrayList<>();
         
         int floor;
-        if ((a ^ b) < 0 && a % b != 0) { // if a and b have opposite signs and not divisible
+        if ((a ^ b) < 0 && a % b != 0) { 
             floor = a / b - 1;
         } else {
             floor = a / b;
@@ -11,7 +11,7 @@ class Solution {
         ans.add(floor);
         
         int ceil;
-        if ((a ^ b) >= 0 && a % b != 0) { // same sign and not divisible
+        if ((a ^ b) >= 0 && a % b != 0) { 
             ceil = a / b + 1;
         } else {
             ceil = a / b;
